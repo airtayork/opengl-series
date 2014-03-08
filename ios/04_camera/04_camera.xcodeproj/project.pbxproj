@@ -64,6 +64,7 @@
 		198F9C6016F569CC00316EC8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		198F9C6116F569CC00316EC8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		198F9C6216F569CC00316EC8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		741F78CF18C1B62D00D25F76 /* libglfw.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw.a; path = ../../osx/thirdparty/glfw/libglfw.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +173,7 @@
 		198F9C2016F5685900316EC8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				741F78CF18C1B62D00D25F76 /* libglfw.a */,
 				1949ADDE16F5D20600287931 /* CoreMotion.framework */,
 				198F9C2116F5685900316EC8 /* UIKit.framework */,
 				198F9C2316F5685900316EC8 /* Foundation.framework */,
@@ -340,6 +342,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sys/01_project_skeleton-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/sys/01_project_skeleton-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/shoubinzhao/Development/opengl-series-airtayork-github/osx/thirdparty/glfw",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "/opt/local/include/**";
 				WRAPPER_EXTENSION = app;
@@ -353,6 +359,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sys/01_project_skeleton-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/sys/01_project_skeleton-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/shoubinzhao/Development/opengl-series-airtayork-github/osx/thirdparty/glfw",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "/opt/local/include/**";
 				WRAPPER_EXTENSION = app;
