@@ -53,12 +53,12 @@
 		E21E3B92165F718000D9ED06 /* source */ = {
 			isa = PBXGroup;
 			children = (
-				E21E3B93165F718000D9ED06 /* fragment-shader.txt */,
 				E21E3B94165F718000D9ED06 /* main.mm */,
 				E21E3B95165F718000D9ED06 /* Program.cpp */,
 				E21E3B96165F718000D9ED06 /* Program.h */,
 				E21E3B97165F718000D9ED06 /* Shader.cpp */,
 				E21E3B98165F718000D9ED06 /* Shader.h */,
+				E21E3B93165F718000D9ED06 /* fragment-shader.txt */,
 				E21E3B99165F718000D9ED06 /* vertex-shader.txt */,
 			);
 			path = source;
